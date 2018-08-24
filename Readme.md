@@ -53,6 +53,9 @@ It's a thorough rewrite of the server and the client using Apollo 2, React 16, W
 
 [Apollo Server 2](https://www.apollographql.com/docs/apollo-server/getting-started.html)
 
+>Note: to use `apollo-server` v2.0.3, there is an issue re: `apollo-upload-server` (even though we're not using it) that requires installation of `core-js` as a project dependency. More info:
+> https://github.com/apollographql/apollo-server/issues/1542
+
 [Prisma's `graphql-import`](https://oss.prisma.io/content/graphql-import/overview)
 
 >Note: `graphql-import` docs also need updating. I needed to use Node's built-in `path.join()` to import the root `schema.graphql` file:
