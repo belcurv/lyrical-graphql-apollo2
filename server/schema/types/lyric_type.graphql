@@ -1,0 +1,8 @@
+# import Song from './song_type.graphql'
+
+type Lyric {
+  id: ID!
+  likes: Int!
+  content: String!
+  song: Song!
+}

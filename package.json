@@ -1,0 +1,25 @@
+{
+  "name": "lyrical-2",
+  "version": "2.0.0",
+  "description": "Refactored GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "author": "JRS",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.0.3",
+    "core-js": "^2.5.7",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-import": "^0.6.0",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

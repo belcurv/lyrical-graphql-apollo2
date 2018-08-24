@@ -1,0 +1,8 @@
+# import Song from './types/song_type.graphql'
+# import Lyric from './types/lyric_type.graphql'
+
+type Query {
+  song(id: ID!): Song!
+  songs: [Song!]!
+  lyric(id: ID!): Lyric!
+}

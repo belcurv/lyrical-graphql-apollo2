@@ -1,0 +1,9 @@
+# import Song from './types/song_type.graphql'
+# import Lyric from './types/lyric_type.graphql'
+
+type Mutation {
+  addSong(title: String!): Song!
+  addLyricToSong(songId: ID!, content: String!): Song!
+  likeLyric(id: ID!): Lyric!
+  deleteSong(id: ID!): Song!
+}
